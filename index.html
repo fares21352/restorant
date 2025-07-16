@@ -1,34 +1,124 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>restaurant project
-  </title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
+  <title>Restaurant & Travel Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 <body>
 
-  <nav class="bar">
+  <header>
+    <h1>Gusto & Wander</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <h1>our restaurant</h1>
-    <div>
-      <a href="default.asp">Home</a>
-      <a href="menu.asp">menu</a>
-      <a href="aboutus.asp">about us</a>
-      <a href="contact.asp">contact</a>
-    </div>
-  </nav>
-  <div>
-    <img src="image copy.png">
-  </div>
   <section class="hero">
-
-    <h2>welcome everyone to our restaurant</h2>
-    <button class="button">explore more</button>
+    <h2>Delicious Flavors Await</h2>
+    <button>Explore Menu</button>
   </section>
+
+  <section id="menu" class="section">
+    <h2 style="text-align:center">Our Menu</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="image.png" alt="Dish 1">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Creamy pasta with pancetta and parmesan.</p>
+        <p>$12.99</p>
+      </div>
+      <div class="card">
+        <img src="grilled-salmon-9.jpg" alt="Dish 2">
+        <h3>Grilled Salmon</h3>
+        <p>Served with lemon butter and herbs.</p>
+        <p>$16.50</p>
+      </div>
+      <div class="card">
+        <img src="R.jpg" alt="Dish 3">
+        <h3>Classic Burger</h3>
+        <p>Juicy beef patty with cheese and fries.</p>
+        <p>$9.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <img src="Screenshot 2025-07-17 002352.png" alt="Restaurant">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>Welcome to Gusto & Wander, where food and travel collide. We offer delicious meals and unforgettable journeys to the world's most beautiful destinations. Experience the best of both worlds with us.</p>
+    </div>
+  </section>
+
+  <section class="hero" style="background-image:url('https://via.placeholder.com/1200x400/88c');">
+    <h2>Explore the World with Us</h2>
+    <button>Discover Tours</button>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center">Popular Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <img src="paris.jpg" alt="Paris">
+        <h3>Paris</h3>
+        <p>The city of lights and love awaits you.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="bali.jpg" alt="Bali">
+        <h3>Bali</h3>
+        <p>Relax on the sandy beaches of Indonesia.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="card">
+        <img src="tk.jpg" alt="Tokyo">
+        <h3>Tokyo</h3>
+        <p>Experience the fusion of tradition and tech.</p>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center">Our Tours</h2>
+    <div class="accordion">
+      <div class="item">
+        <h3>European Adventure</h3>
+        <p>Travel through Rome, Paris, and Amsterdam. <a href="#">View Details</a></p>
+      </div>
+      <div class="item">
+        <h3>Asian Exploration</h3>
+        <p>Explore Tokyo, Bangkok, and Bali. <a href="#">View Details</a></p>
+      </div>
+      <div class="item">
+        <h3>African Safari</h3>
+        <p>Witness the wildlife in Kenya and South Africa. <a href="#">View Details</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 style="text-align:center">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Destination of interest">
+      <textarea rows="5" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gusto & Wander. Follow us on social media.</p>
+  </footer>
+
 </body>
 
 </html>
